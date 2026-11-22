@@ -1,3 +1,4 @@
+
 ---
 layout: default
 title: Home
@@ -7,8 +8,9 @@ title: Home
 
 **Software Developer · Cybersecurity Enthusiast**
 
-Welcome to my cybersecurity portfolio, documenting my technical
-skills, hands-on security projects, and continuous learning.
+Welcome to my cybersecurity portfolio, documenting my technical skills, hands-on security projects, and continuous learning.
+
+---
 
 ## About Me
 
@@ -21,6 +23,8 @@ My primary interests include penetration testing, application security, and netw
 Through hands-on laboratories and independent learning, I am developing practical skills in Linux administration, network reconnaissance, vulnerability assessment, and security testing.
 
 This portfolio documents my technical projects, learning progress, and continued development towards a career in cybersecurity.
+
+---
 
 ## Technical Skills
 
@@ -44,6 +48,8 @@ This portfolio documents my technical projects, learning progress, and continued
 - **Penetration Testing Fundamentals:** Learning security testing techniques through hands-on laboratories.
 - **Network Security Assessment:** Developing skills in network reconnaissance, service enumeration, and identifying potential security weaknesses.
 
+---
+
 ## Certifications and Training
 
 ### Academic Studies
@@ -60,6 +66,8 @@ This portfolio documents my technical projects, learning progress, and continued
 ### Professional Certifications
 
 - Professional certifications will be added as they are earned.
+
+---
 
 ## Projects
 
@@ -82,6 +90,8 @@ This project combines software development with cybersecurity concepts, focusing
 **Key Skills:** Python, Scapy, TCP/IP networking, network scanning, and security tool development.
 
 [View Project Documentation](projects/network-scanner/README.md)
+
+---
 
 ## Learning Journey
 
@@ -121,6 +131,8 @@ I aim to reach 2,500 points on TryHackMe by 31 December 2026, focusing on networ
 
 I also plan to complete five Cisco Networking Academy courses by 31 January 2027: CyberOps Associate, Introduction to Networks, Switching, Routing, and Wireless Essentials, Enterprise Networking, Security, and Automation, and Network Security. I will track my progress through course completion records and assessment results.
 
+---
+
 ## Career Objective
 
 My career objective is to become a Penetration Tester, specialising in identifying security vulnerabilities in applications, networks, and systems. With my background in software development, I hope to combine programming knowledge with practical security testing skills to better understand how vulnerabilities occur and how they can be prevented.
@@ -128,6 +140,8 @@ My career objective is to become a Penetration Tester, specialising in identifyi
 To achieve this goal, I plan to strengthen my knowledge of networking, operating systems, and penetration testing methodologies. I also intend to gain more hands-on experience through practical laboratories and cybersecurity platforms.
 
 As I progress, I aim to develop my skills in vulnerability assessment, exploitation techniques, and security reporting. My long-term goal is to help organisations identify security weaknesses, understand potential risks, and improve their overall security posture.
+
+---
 
 ## Contact Information
 
