@@ -65,26 +65,23 @@ This portfolio documents my technical projects, learning progress, and continued
 
 ### 1. Cybersecurity Virtual Lab Setup
 
-Designed and configured an isolated virtual lab environment using
-UTM, Kali Linux, and Metasploitable 2.
+Designed and configured an isolated virtual lab environment using UTM, Kali Linux, and Metasploitable 2.
 
-The lab provides a controlled environment for practising network
-security, system reconnaissance, and penetration testing techniques
-without affecting production systems.
+The lab provides a controlled environment for practising network security, system reconnaissance, and penetration testing techniques without affecting production systems.
 
 **Key Skills:** Virtualisation, Linux, TCP/IP networking, network isolation, and troubleshooting.
 
+[View Project Documentation](projects/virtual-security-lab/README.md)
+
 ### 2. Network Scanning Tool Development
 
-Developed a Python-based network scanning tool to explore
-network discovery, service identification, and security assessment.
+Developed a Python-based TCP SYN scanning tool using Scapy to explore network scanning techniques and security assessment.
 
-This project combines software development with cybersecurity
-concepts, focusing on network scanning techniques, interpreting
-results, and understanding potential security exposure.
+This project combines software development with cybersecurity concepts, focusing on TCP port scanning, interpreting network responses, and validating results against Nmap.
 
-**Key Skills:** Python, network scanning, network security,
-and security tool development.
+**Key Skills:** Python, Scapy, TCP/IP networking, network scanning, and security tool development.
+
+[View Project Documentation](projects/network-scanner/README.md)
 
 ## Learning Journey
 
