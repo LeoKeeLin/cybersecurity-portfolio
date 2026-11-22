@@ -1,0 +1,8 @@
+title: Leo Kee Lin | Cybersecurity Portfolio
+description: Technical skills, security projects, and continuous learning.
+theme: minima
+
+url: "https://leokeelin.github.io"
+baseurl: "/cybersecurity-portfolio"
+
+markdown: kramdown

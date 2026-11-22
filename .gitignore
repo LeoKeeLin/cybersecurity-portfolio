@@ -1,0 +1,32 @@
+# macOS generated files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+
+# Sensitive files and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+.ssh/
+
+# Virtual machine files
+*.vmdk
+*.vdi
+*.qcow2
+*.iso
+*.utm/
+
+# Jekyll generated files
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.bundle/
+vendor/bundle/
