@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94SVN scan initiated Thu Nov 12 08:29:32 2026 as: nmap -sS -Pn -n -&#45;disable-arp-ping -e eth0 -p 22,80,443,8080 -&#45;max-rate 20 -&#45;max-retries 1 -&#45;initial-rtt-timeout 1500ms -&#45;max-rtt-timeout 1500ms -&#45;reason -oX /evidence/candidate/nmap-validation.xml 172.28.70.10 -->
+<nmaprun scanner="nmap" args="nmap -sS -Pn -n -&#45;disable-arp-ping -e eth0 -p 22,80,443,8080 -&#45;max-rate 20 -&#45;max-retries 1 -&#45;initial-rtt-timeout 1500ms -&#45;max-rtt-timeout 1500ms -&#45;reason -oX /evidence/candidate/nmap-validation.xml 172.28.70.10" start="1794472172" startstr="Thu Nov 12 08:29:32 2026" version="7.94SVN" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="4" services="22,80,443,8080"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1794472172" endtime="1794472172"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="172.28.70.10" addrtype="ipv4"/>
+<address addr="16:56:51:D5:53:3A" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="https" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http-proxy" method="table" conf="3"/></port>
+</ports>
+<times srtt="165" rttvar="2133" to="100000"/>
+</host>
+<runstats><finished time="1794472172" timestr="Thu Nov 12 08:29:32 2026" summary="Nmap done at Thu Nov 12 08:29:32 2026; 1 IP address (1 host up) scanned in 0.24 seconds" elapsed="0.24" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
