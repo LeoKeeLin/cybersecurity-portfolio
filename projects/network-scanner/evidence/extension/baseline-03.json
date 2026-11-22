@@ -1,0 +1,162 @@
+{
+  "capture_point": "workbench eth0; records the authorised scanner vantage point",
+  "command": [
+    "/usr/bin/python3",
+    "/workspace/tcp-syn-scanner/src/main.py",
+    "--scope",
+    "/scopes/assignment-01-tcp-syn-scan.json",
+    "--execute",
+    "--output",
+    "extension/baseline-03.json"
+  ],
+  "counts": {
+    "rst_sent": 4,
+    "syn_sent": 4,
+    "unmatched_packets": 0
+  },
+  "elapsed_seconds": 6.070557,
+  "ended_utc": "2026-11-12T06:41:16.536716+00:00",
+  "environment": "isolated-course-lab",
+  "limits": [
+    "No response does not prove filtering or host absence.",
+    "ICMP errors are retained; without a TCP verdict the state remains filtered-or-no-response.",
+    "Response timings include capture/scheduling effects; they are not precise network RTT measurements.",
+    "The OS may independently send RSTs; inspect the capture for actual wire behaviour.",
+    "A shortened response grace can miss late duplicate/conflicting replies; prior probes remain matchable until the run ends."
+  ],
+  "mode": "execute",
+  "option": "tcp-syn-scan",
+  "parameters": {
+    "attempts": 2,
+    "interface": "eth0",
+    "ports": [
+      22,
+      80,
+      443,
+      8080
+    ],
+    "rate_pps": 20,
+    "response_grace_seconds": null,
+    "source_ip": "172.28.70.2",
+    "target": "172.28.70.10",
+    "timeout_seconds": 1.5
+  },
+  "results": [
+    {
+      "attempts": [
+        {
+          "matched_responses": 1,
+          "number": 1,
+          "response_grace_triggered": false,
+          "sent_elapsed_seconds": 0.017524416000014753,
+          "sequence": 2202582677,
+          "source_port": 44340,
+          "window_ended_elapsed_seconds": 1.538676
+        }
+      ],
+      "conflicting_tcp_states": false,
+      "observations": [
+        {
+          "attempt": 1,
+          "count": 1,
+          "first_elapsed_seconds": 0.033382,
+          "kind": "open",
+          "last_elapsed_seconds": 0.033382,
+          "response_seconds": 0.015858,
+          "tcp_flags": 18
+        }
+      ],
+      "port": 22,
+      "state": "open"
+    },
+    {
+      "attempts": [
+        {
+          "matched_responses": 1,
+          "number": 1,
+          "response_grace_triggered": false,
+          "sent_elapsed_seconds": 1.5393535419989348,
+          "sequence": 3085773290,
+          "source_port": 44341,
+          "window_ended_elapsed_seconds": 3.046116
+        }
+      ],
+      "conflicting_tcp_states": false,
+      "observations": [
+        {
+          "attempt": 1,
+          "count": 1,
+          "first_elapsed_seconds": 1.541246,
+          "kind": "open",
+          "last_elapsed_seconds": 1.541246,
+          "response_seconds": 0.001893,
+          "tcp_flags": 18
+        }
+      ],
+      "port": 80,
+      "state": "open"
+    },
+    {
+      "attempts": [
+        {
+          "matched_responses": 1,
+          "number": 1,
+          "response_grace_triggered": false,
+          "sent_elapsed_seconds": 3.046803875999103,
+          "sequence": 2012514711,
+          "source_port": 44342,
+          "window_ended_elapsed_seconds": 4.553424
+        }
+      ],
+      "conflicting_tcp_states": false,
+      "observations": [
+        {
+          "attempt": 1,
+          "count": 1,
+          "first_elapsed_seconds": 3.048806,
+          "kind": "open",
+          "last_elapsed_seconds": 3.048806,
+          "response_seconds": 0.002002,
+          "tcp_flags": 18
+        }
+      ],
+      "port": 443,
+      "state": "open"
+    },
+    {
+      "attempts": [
+        {
+          "matched_responses": 1,
+          "number": 1,
+          "response_grace_triggered": false,
+          "sent_elapsed_seconds": 4.5540500019997125,
+          "sequence": 4104830412,
+          "source_port": 44343,
+          "window_ended_elapsed_seconds": 6.057802
+        }
+      ],
+      "conflicting_tcp_states": false,
+      "observations": [
+        {
+          "attempt": 1,
+          "count": 1,
+          "first_elapsed_seconds": 4.556323,
+          "kind": "open",
+          "last_elapsed_seconds": 4.556323,
+          "response_seconds": 0.002273,
+          "tcp_flags": 18
+        }
+      ],
+      "port": 8080,
+      "state": "open"
+    }
+  ],
+  "scapy_version": "2.7.0",
+  "schema": "wqe7002-tcp-result-v1",
+  "scope_id": "wqe7002-a1-standard-tcp-syn-scan-v1",
+  "scope_sha256": "6c43bad92cd4058046ff18fb54e53c551ab7221444cf5696685e5a8225414914",
+  "started_utc": "2026-11-12T06:41:10.466507+00:00",
+  "status": "complete",
+  "tool_version": "0.3.0",
+  "topology": "wqe7002-course-lab Compose internal bridge"
+}
